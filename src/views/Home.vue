@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="page-view home">
     <HelloWorld msg="barakhov.github.io" />
-    <img alt="Vue logo" src="../assets/hackerman.jpg" />
+    <img alt="Vue logo" src="@/assets/hackerman.jpg" />
   </div>
 </template>
 
