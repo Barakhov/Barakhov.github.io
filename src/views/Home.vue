@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="barakhov.github.io" />
+    <HelloWorld msg="barakhov 😍 CMG" />
     <img alt="Vue logo" src="../assets/hackerman.jpg" />
   </div>
 </template>
