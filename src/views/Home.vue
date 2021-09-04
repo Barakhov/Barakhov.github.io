@@ -20,6 +20,6 @@ export default {
 <style scoped>
 img {
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 310px;
 }
 </style>
