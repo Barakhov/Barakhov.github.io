@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
+      <span style="padding: 0 5px">|</span>
       <router-link to="/about">About</router-link>
     </nav>
     <main>
@@ -19,11 +20,13 @@
 
 nav {
   padding: 30px;
+  text-align: center;
 
   a {
     color: $clr-black;
     text-decoration: none;
 
+    &:hover,
     &.router-link-exact-active {
       color: $clr-primary;
       text-decoration: underline;
