@@ -5,7 +5,6 @@ import router from "./router";
 Vue.config.productionTip = false;
 
 // Importing the global css file
-import "@/assets/css/reset.css";
 import "@/assets/css/global.css";
 
 new Vue({

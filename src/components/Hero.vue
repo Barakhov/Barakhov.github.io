@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
+    <h4>{{ msg }}</h4>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h1 {
+h4 {
   text-align: center;
 }
 </style>
