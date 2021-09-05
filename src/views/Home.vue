@@ -1,25 +1,17 @@
 <template>
-  <div class="page-view home">
-    <HelloWorld msg="barakhov.github.io" />
-    <img alt="Vue logo" src="@/assets/hackerman.jpg" />
+  <div class="home">
+    <Hero msg="barakhov.github.io" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Hero from "@/components/Hero.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    Hero,
   },
 };
 </script>
-
-<style scoped>
-img {
-  margin: 0 auto;
-  max-width: 310px;
-}
-</style>
