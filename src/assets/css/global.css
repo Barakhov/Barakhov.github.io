@@ -1,37 +1,33 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 16px;
 }
 
 body {
-  padding: 0 20px;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.75;
+
   color: #090909;
   background-color: #f3f3f3;
 }
 
 p {
-  font-size: 18px;
-  margin-top: 0;
-  margin-bottom: 1.75em;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-a {
+/* a {
   color: #c60e1c;
   text-decoration: underline;
 }
 
 a:hover {
   text-decoration: none;
-}
+} */
 
 h1,
 .h1_like,
@@ -45,55 +41,49 @@ h5,
 .h5_like,
 h6,
 .h6_like {
-  margin: 2.75rem 0 1.25rem;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 600;
-  line-height: 1.25;
-  color: #d61b28;
+  margin: 3rem 0 1.38rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 h1,
 .h1_fs,
 .h1_like {
-  font-size: 4em;
+  margin-top: 0;
+  font-size: 4.209rem;
 }
 
 h2,
 .h2_fs,
 .h2_like {
-  font-size: 3em;
+  font-size: 3.157rem;
 }
 
 h3,
 .h3_fs,
 .h3_like {
-  font-size: 2.5em;
+  font-size: 2.369rem;
 }
 
 h4,
 .h4_fs,
 .h4_like {
-  font-size: 2em;
+  font-size: 1.777rem;
 }
 
 h5,
 .h5_fs,
 .h5_like {
-  font-size: 1.5em;
-}
-
-h6,
-.h6_fs,
-.h6_like {
-  font-size: 1.25em;
+  font-size: 1.333rem;
 }
 
 small,
 .small_fs {
-  font-size: 0.85em;
+  font-size: 0.75rem;
 }
 
 strong,
 .strong_fw {
-  font-weight: 600;
+  font-weight: 700;
 }
