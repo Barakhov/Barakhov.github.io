@@ -50,11 +50,11 @@ $letter-count: 7;
 
 $letter-count: 7;
 
-@for $i from 0 through $letter-count - 1 {
-  .logo .collapse i:nth-of-type(#{$i + 1}) {
-    transition: all 0.2s #{- (0.05-0.3)}s linear;
-  }
-}
+// @for $i from 0 through $letter-count - 1 {
+//   .logo .collapse i:nth-of-type(#{$i + 1}) {
+//     transition: all 0.2s #{- (0.05-0.3)}s linear;
+//   }
+// }
 
 .logo:hover .collapse {
   max-width: 142px;
