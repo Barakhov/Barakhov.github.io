@@ -1,37 +1,24 @@
 <template>
-  <div>
-    <div class="logo-wrap">
-      <a class="logo">
-        <span
-          >B<span class="collapse"
-            ><i>a</i><i>r</i><i>a</i><i>k</i><i>h</i><i>o</i><i>v</i></span
-          >.</span
-        >
-      </a>
-    </div>
-    <h4>{{ msg }}</h4>
+  <div class="logo-wrap">
+    <a class="logo">
+      <span
+        >B<span class="collapse"
+          ><i>a</i><i>r</i><i>a</i><i>k</i><i>h</i><i>o</i><i>v</i></span
+        >.</span
+      >
+    </a>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Hero",
-  props: {
-    msg: String,
-  },
+  name: "Logo",
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h4 {
-  text-align: center;
-}
-
 $letter-count: 7;
 .logo-wrap {
-  display: flex;
-  justify-content: center;
 }
 
 .logo {
