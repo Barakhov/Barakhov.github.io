@@ -6,6 +6,7 @@ Vue.config.productionTip = false;
 
 // Importing the global css file
 import "@/assets/css/global.css";
+import "@/assets/css/flexutil.css";
 
 new Vue({
   router,
